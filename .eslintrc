@@ -1,0 +1,19 @@
+{
+  "parserOptions":{
+    "ecmaVersion":6,
+    "sourceType": "module"
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "var1":true,
+    "var2":true
+  },
+  "rules": {
+    "generator-star-spacing": "off",
+    "no-undef": ["error"]
+    // allow debugger during development
+  }
+}
