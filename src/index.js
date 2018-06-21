@@ -1,5 +1,3 @@
-import {name} from  './lib'
-import  {ob} from './observe'
-console.log(name);
-
-
+import {observe} from './observe'
+let a = {name: 'yingang', year: 18}
+observe(a)

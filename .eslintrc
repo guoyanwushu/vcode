@@ -1,4 +1,5 @@
 {
+  "root": true,
   "parserOptions":{
     "ecmaVersion":6,
     "sourceType": "module"
@@ -11,9 +12,15 @@
     "var1":true,
     "var2":true
   },
+  "extends": "standard",
   "rules": {
     "generator-star-spacing": "off",
-    "no-undef": ["error"]
+    "no-undef": ["error"],
+    "indent": ["off","tab"],
+    "no-extra-semi":"error",
+    "eol-last": ["off"],
+    "no-self-compare":["off"],
+    "no-debugger":"off"
     // allow debugger during development
   }
 }
