@@ -12,7 +12,7 @@
     "var1":true,
     "var2":true
   },
-  "extends": "standard",
+  /*"extends": "standard",*/
   "rules": {
     "generator-star-spacing": "off",
     "no-undef": ["error"],
